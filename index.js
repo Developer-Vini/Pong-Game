@@ -95,8 +95,8 @@ function update() {
 }
 
 function render() {
-    drawRect(0, 0, canvas.width, canvas.height, "#f0f8ff"); // Azul claro (AliceBlue)
-    // drawNet();  // Comentado para remover a linha divisória
+    drawRect(0, 0, canvas.width, canvas.height, "#f0f8ff"); 
+    
     drawText(user.score, canvas.width / 2, canvas.height / 4, "GRAY", 120, 'bold', 'Arial');
     drawText(com.score, canvas.width / 2, (3 * canvas.height) / 4, "GRAY", 120, 'bold', 'Arial');
     drawRect(user.x, user.y, user.width, user.height, user.color);
